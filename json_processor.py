@@ -39,6 +39,7 @@ def create_arguments():
 def handle_exception(exception):
     return (type(exception), exception, exception.__traceback__)
 
+
 if __name__ == '__main__':
     try:
         flattened = []
